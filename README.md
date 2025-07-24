@@ -9,7 +9,7 @@
 
   <header>
     <nav>
-      <a href="#">선호씨</a> |
+      <a href="https://kbusunho.github.io/hello/">선호씨</a> |
       <a href="#">소개</a>
     </nav>
   </header>
