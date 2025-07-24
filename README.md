@@ -1,25 +1,161 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>간단한 소개 페이지</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-
   <header>
-    <nav>
-      <a href="https://kbusunho.github.io/hello/">선호씨</a>
-      <a href="https://gueon7866.github.io/test0724/">승건씨</a>
-    </nav>
+    <div class="inner">
+      <h1 class="title">
+        <a href="#">
+          최선호 /
+        </a>
+        <a href="#">
+          승건행님페이지 /
+        </a>
+        <a href="https://kbusunho.github.io/test/">
+          홈으로
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#">menu1</a></li>
+          <li><a href="#">menu2</a></li>
+          <li><a href="#">menu3</a></li>
+          <li><a href="#">menu4</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+  <section id="s01">
+    <div class="inner">
+      <div class="t-wrap">
+        <h2>section title</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <a href="#" class="btn">button</a>
+      </div>
+    </div>
+  </section>
 
-  <main>
-    <h1>안녕하세요!</h1>
-    <p>저는 웹 개발에 관심이 많은 사람입니다.<br>
-    HTML, CSS, JavaScript를 배우고 있으며, 간단한 웹 페이지를 직접 만들어보고 있어요.<br>
-    이 페이지는 나를 소개하는 연습용 HTML입니다.</p>
-  </main>
+  <section id="s02">
+    <div class="inner">
+      <div class="t-wrap">
+        <h2>section title2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+
+      </div>
+      <!-- display:flex; flex-wrap:wrap; -->
+      <ul class="s02-list">
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+        <li>
+          <h3>title</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="s03">
+  <div class="inner split">
+    <div class="text">
+      <h2>Title</h2>
+      <p>인쇄물 간결하게 돋보이는 한마디에 시선포착, 이동에도, 매일 글로도 시각적 관심. 색상 규칙과 그라데이션, 넓게 배치하면 미학을 만들어낸 세련된 배경이 나만의 디자인 필승 사용한다, 더 사용한다.</p>
+      <a href="#" class="btn">button</a>
+    </div>
+    <div class="img"></div>
+  </div>
+</section>
+
+<section id="s04">
+  <div class="inner">
+    <div class="top">
+      <div class="top-left">
+        <h2>Title</h2>
+        <p>인쇄물 간결하게 돋보이는 한마디에 시선포착, 이동에도, 매일 글로도 시각 관심도 그라데이션 색상 나만의 연출의 법률 새로운 색구나! 내용이 색구나! 디자인 힘도 또 사용한다, 더 사용한다.</p>
+      </div>
+      <div class="top-right">
+        <a href="#" class="btn">button</a>
+      </div>
+    </div>
+
+    <ul class="s04-list">
+      <li>
+        <h3>Title</h3>
+        <p>인쇄물 간결하게 돋보이는 분야에서 텍스트도, 대담하면서도 정제된 글꼴이 뛰어나는 분야에서 텍스트도, 아름답다</p>
+      </li>
+      <li>
+        <h3>Title</h3>
+        <p>인쇄물 간결하게 돋보이는 분야에서 텍스트도, 대담하면서도 정제된 글꼴이 뛰어나는 분야에서 텍스트도, 아름답다</p>
+      </li>
+      <li>
+        <h3>Title</h3>
+        <p>인쇄물 간결하게 돋보이는 분야에서 텍스트도, 대담하면서도 정제된 글꼴이 뛰어나는 분야에서 텍스트도, 아름답다</p>
+      </li>
+      <li>
+        <h3>Title</h3>
+        <p>인쇄물 간결하게 돋보이는 분야에서 텍스트도, 대담하면서도 정제된 글꼴이 뛰어나는 분야에서 텍스트도, 아름답다</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
 
 </body>
+
 </html>
